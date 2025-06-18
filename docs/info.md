@@ -13,11 +13,12 @@ This circuit needs to accept 4 different two two-bit values, A and B. It needs t
 
 ## How to test |
 Simulate using Wokwi, testing against this truth table as agolden file.
-A	B	AND	NAND	XOR	XNOR
-0	0	 0	 1	   0	  1
-0	1	 0	 1	   1	  0
-1	0	 0	 1	   1	  0
-1	1	 1	 0	   0	  1
+
+A	B	AND
+0	0	 0
+0	1	 0
+1	0	 0
+1	1	 1
 
 ## External hardware |
 
