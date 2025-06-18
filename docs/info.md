@@ -9,11 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This circuit needs to accept 4 different two two-bit values, A and B. It needs to output 4 different output one-bit values, for each gate AND, NAND, XOR and XNOR.
 
 ## How to test
-
-Explain how to use your project
+Simulate using Wokwi, testing against this truth table as agolden file.
+A	B	AND	NAND	XOR	XNOR
+0	0	0	1	0	1
+0	1	0	1	1	0
+1	0	0	1	1	0
+1	1	1	0	0	1
 
 ## External hardware
 
